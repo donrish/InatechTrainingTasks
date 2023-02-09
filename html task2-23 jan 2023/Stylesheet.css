@@ -1,0 +1,37 @@
+﻿body {
+    margin: 0px;
+    background-color: honeydew;
+}
+
+textarea {
+    display: block;
+    width: 55%;
+    overflow: hidden;
+    resize: both;
+    height: 40px;
+    line-height: 20px;
+}
+
+form {
+    margin-left: 80px;
+}
+
+a {
+    text-decoration: blink;
+}
+
+.form {
+    background-color: lightcyan;
+    height: stretch;
+    width: 30%;
+    margin-left: 495px;
+    padding: 40px;
+    margin-top: 30px;
+    border: double;
+    font-family: Calibri;
+}
+
+.head {
+    text-align: center;
+    font-family: Calibri;
+}

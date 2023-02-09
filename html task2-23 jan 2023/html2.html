@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Application Form</title>
+    <link href="Stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="head">
+        <h1>Job Application</h1>
+        <a href="Instruction.html">Instructions</a>
+    </div>
+
+    <div class="form">
+        <form action="Sucesssoln.html">
+            <h4><u>Personal information:</u></h4>
+            <label id="Fname">First Name:</label>*
+            <input type="text" id="txt-name" name="Fname" placeholder="FirstName" required />
+            <br />
+            <br />
+            <label id="Lname">Last Name:</label>
+            <input type="text" id="Lname" name="Lname" placeholder="LastName" required />
+            <br />
+            <br />
+            <label for="faname">Father's Name:</label>*
+            <input type="text" id="txt-name" name="Faname" placeholder="Father's Name" required />
+            <br />
+            <br />
+            <label>Gender:</label>*
+            <input type="radio" name="Gender" id="m" value="Male" /><label id="male">Male</label>
+            <input type="radio" name="Gender" id="m" value="Female" /><label id="female">Female</label>
+            <br />
+            <br />
+            <label id="dob">DOB:</label>*<input type="date" name="DOB" id="dob" required />
+            <h4>Contact info</h4>
+            <label id="email">Email:</label>*<input type="email" placeholder="Email" required />
+            <br />
+            <br />
+            <label id="mob">Phone:</label>*<input type="tel" placeholder="Mobile No" required />
+            <br />
+            <br />
+            <label id="Address">Address:</label>*
+            <textarea id="address" rows="10" cols="40" placeholder="Permanent Address"></textarea>
+            <h4><u>Academic Info</u>:</h4>
+            <label>10th Marks:</label>*
+            <input type="text" id="ssm" placeholder="in %" required />
+            <br />
+            <br />
+            <label>12th Marks:</label>
+            <input type="text" placeholder="in %" id="hsm" />
+            <br />
+            <br />
+            <label>University Marks:</label>*
+            <input type="text" placeholder="in %" id="graduate" required />
+            <br />
+            <br />
+            <label>Diploma Marks:</label>
+            <input type="text" placeholder="in %" id="dip" />
+            <br />
+            <br />
+            <label>Skills:</label>*
+            <textarea id="skills" rows="9" cols="10" placeholder="Mention your skills here" required></textarea>
+            <br />
+            <h4><u>Job Information</u>:</h4>
+            <label id="post">Job position</label>
+            <input type="radio" name="post" id="deve" value="Developer" /><label id="Developer">Developer</label>
+            <input type="radio" name="post" id="desi" value="Designer" /><label id="Designer">Desinger</label>
+            <input type="radio" name="post" id="test" value="Tester" /><label id="Tester">Tester</label>
+            <br />
+            <br />
+            <label>Previous Workplace(If any):</label>
+            <input type="text" id="pre" />
+            <br />
+            <br />
+            <label>Upload resume:</label>*
+            <br />
+            <br />
+            <input type="file" id="resume" required />
+            <br />
+            <br />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+</html>
