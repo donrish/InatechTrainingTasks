@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+    //
+    ViewData["Title"]="Birthdayyy"; 
+}
+<div>
+    <h1>HELLO EVERYONE</h1>
+    <h3>--------------</h3>
+</div>
+<ul>
+@for (int i=0;i<(int)ViewData["nos"];i++)  // /sample/index/?name=ram&nos=10 prints as list 10 times
+    {
+        <li><h4>Hello @ViewData["name"]</h4></li>
+    }
+
+@*<h4>Hello @ViewData["name"]</h4>
+<h4>@ViewData["nos"]</h4>*@
+
+</ul>
