@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <style>
+        .Format {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Movie Name</th>
+            <th>Actor Name</th>
+        </tr>
+        <tr>
+            <td>Iron Man</td>
+            <td>RDJ</td>
+        </tr>
+        <tr>
+            <td>Captain America</td>
+            <td>Chris Evans</td>
+        </tr>
+        <tr>
+            <td>Thor</td>
+            <td>Chris Hemsworth</td>
+        </tr>
+    </table>
+    <script>
+        $("td").hover(function () {
+            $(this).addClass("Format");
+        },
+            function ()
+            {
+                $(this).removeClass("Format");
+            }
+        );
+    </script>
+
+</body>
+</html>
